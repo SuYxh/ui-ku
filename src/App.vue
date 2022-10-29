@@ -19,7 +19,7 @@
 
 <script lang="ts">
 import JSXButton from "./JSXButton/index";
-import XButton from "./Button/index";
+import XButton from "./Button/Button";
 
 export default {
   name: "App",

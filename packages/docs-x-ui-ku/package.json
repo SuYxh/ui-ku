@@ -1,17 +1,17 @@
 {
-  "name": "smarty-ui",
+  "name": "docs-x-ui-ku",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:build": "pnpm --filter x-ui-ku docs:build",
-    "docs:dev": "pnpm --filter x-ui-ku docs:dev",
+    "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vite": "^3.2.1"
+    "vue": "3.2.37",
+    "x-ui-ku": "workspace:^1.0.0"
   }
 }

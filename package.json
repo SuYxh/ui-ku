@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "npx husky install",
     "docs:build": "pnpm --filter x-ui-ku docs:build",
     "docs:dev": "pnpm --filter x-ui-ku docs:dev",
     "test": "echo \"Error: no test specified\" && exit 1"

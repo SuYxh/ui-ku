@@ -18,14 +18,14 @@
 </template>
 
 <script lang="ts">
-import JSXButton from './JSXButton/index'
-import XButton from './Button/index'
+import JSXButton from "./JSXButton/index";
+import XButton from "./Button/index";
 
 export default {
-  name: 'Button',
+  name: "App",
   components: {
     JSXButton,
     XButton,
   },
-}
+};
 </script>
